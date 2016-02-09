@@ -3,8 +3,14 @@
 
 body {
 	background-image:url("grid.png");
+	color: #6f6f6f;
 }
-
+img {
+	height: 500px;
+	border: solid;
+	border-color:#aeabb6;
+	border-width: 1px;
+}
 .content {
 	text-align: left;
 	border: solid;
@@ -15,36 +21,31 @@ body {
 	margin-top: 20px;
 	margin-right: 25%;
 	margin-left: 25%;
-	/*border-radius: 15px;*/
 	border-color: #dddddd;
 	border-width: 1px;
 	background-color:#f7f7f7;
-	/*background-image: url("grid.png");*/
-	font-family:consolas;
+	font-family: georgia;
 }
 #image {
 	text-align: center;
-	padding:10px;
+	padding-top:10px;
 }
 #bio {
-	padding: 5px;
-	background-color: #67a76c;
-	margin: 2%;
-	border: solid;
-	border-radius: 11px;
-	border-color: #67a76c;
 	font-family: consolas;
-	font-size: 11;
+	font-size: 11px;
+}
+.name {
+	text-align:center;
 }
 .header {
-	margin-top: 20px;
+	margin-top: 10px;
 	padding:4px;
 	margin-left:auto;
 	margin-right:auto;
 	text-align: center;
 	color: white;
 	font-size: 15px;
-	width: 500px;
+	width: 450px;
 	background-color: #adc3c1;
 	border-top: solid;
 	border-top-color: #aeabb6;
@@ -57,9 +58,11 @@ body {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 10px;
 }
 a:visited {
 	color:none;
+	color: #aeabb6;
 }
 hr {
 	border-color: #dddddd;
@@ -74,9 +77,10 @@ hr {
 	border-color: ##dddddd;
 	border-width: 1px;
 	background-color:#f7f7f7;
+	color: #000000;
 }
-.job {
-	font-size: 11px;
+.subsection {
+	font-size: 12px;
 	font-weight: bold;
 }
 .jobTitle {
@@ -88,7 +92,13 @@ hr {
 	text-align: right;
 	font-style: italic;
 	font-size: 11px;
-	margin-left: 50%;
+	float:right;
+}
+.caption {
+	text-align: center;
+	font-style: italic;
+	font-size: 12px;
+	margin-top:10px;
 }
 li {
 	margin-left: 10px;
