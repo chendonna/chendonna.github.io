@@ -5,18 +5,6 @@ body {
 	background-image:url("grid.png");
 	color: #6f6f6f;
 }
-img {
-	width: 200px;
-	border: solid;
-	border-color:#dddddd;
-	border-width: 1px;
-	margin-top:5px;
-	float:left;
-	position:absolute;
-	right: 25px;
-}
-.side {
-}
 .side_image {
 	width:20%;
 	margin-top:15%;
@@ -46,7 +34,6 @@ img {
 	padding-top:10px;
 }
 #bio {
-	font-family: consolas;
 	font-size: 11px;
 }
 .name {
@@ -76,12 +63,10 @@ img {
 	margin-top: 10px;
 }
 a:visited {
-	color:none;
 	color: #aeabb6;
 }
 hr {
 	border-color: #dddddd;
-	width = "100%";
 }
 .links {
 	text-align: center;
@@ -89,7 +74,7 @@ hr {
 	font-size: 11px;
 	padding: 3px;
 	border:solid;
-	border-color: ##dddddd;
+	border-color: #aeabb6;
 	border-width: 1px;
 	background-color:#f7f7f7;
 	color: #aeabb6;
