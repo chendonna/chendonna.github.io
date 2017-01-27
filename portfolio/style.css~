@@ -1,0 +1,110 @@
+/* Donna Chen */
+/* stylesheet */
+
+body {
+	background-image:url("grid.png");
+	color: #6f6f6f;
+}
+.side_image {
+	width:20%;
+	margin-top:15%;
+	float:left;
+	overflow: hidden;
+	border:none;
+}
+.content {
+	width:40%;
+	text-align: left;
+	border: solid;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 20px;
+	margin-left: 25%;
+	border-color: #dddddd;
+	border-width: 1px;
+	background-color:#f7f7f7;
+	font-family: georgia;
+	float:left;
+	position:relative;
+}
+#image {
+	text-align: center;
+	padding-top:10px;
+}
+#bio {
+	font-size: 11px;
+}
+.name {
+	text-align:center;
+}
+.header {
+	margin-top: 10px;
+	padding:4px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	width: 40%;
+	background-color: #adc3c1;
+	border-top: solid;
+	border-top-color: #aeabb6;
+	border-top-width: 1px;
+	border-bottom: solid;
+	border-bottom-color: #aeabb6;
+	border-bottom-width: 1px;
+}
+.tags {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+a:visited {
+	color: #aeabb6;
+}
+hr {
+	border-color: #dddddd;
+}
+.links {
+	text-align: center;
+	text-decoration: none;
+	font-size: 11px;
+	padding: 3px;
+	border:solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	background-color:#f7f7f7;
+	color: #aeabb6;
+}
+.subsection {
+	font-size: 12px;
+	font-weight: bold;
+}
+.jobTitle {
+	font-size: 11px;
+	font-weight: normal;
+	font-style: italic;
+}
+.year {
+	text-align: right;
+	font-style: italic;
+	font-size: 11px;
+	float:right;
+}
+.caption {
+	text-align: center;
+	font-style: italic;
+	font-size: 12px;
+	margin-top:10px;
+}
+li {
+	margin-left: 10px;
+	font-size:11px;
+	
+}
+#skillz {
+	font-size:11px;
+}
